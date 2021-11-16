@@ -5,4 +5,16 @@ def sum_to(num):
     total += i
   return total
 
-print(sum_to(6))
+# challenge 2
+def largest(lst):
+  max = 0
+  for i in lst:
+    if i > max:
+      max = i
+  return max
+
+## this is the easy way lol 
+def also_largest(lst):
+  return max(lst)
+
+  
