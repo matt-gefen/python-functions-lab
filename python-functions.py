@@ -17,4 +17,13 @@ def largest(lst):
 def also_largest(lst):
   return max(lst)
 
-  
+# challenge 3
+def occurances(str1, str2):
+  return str1.count(str2)
+
+# challenge 4
+def product(*args):
+  total = 1
+  for arg in args:
+    total *= arg
+  return total
